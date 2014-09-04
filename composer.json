@@ -1,0 +1,23 @@
+{
+    "name": "phalcon/pretty-exceptions",
+    "type": "library",
+    "description": "beauty-exceptions plugin for Phalcon",
+    "keywords": ["framework", "phalcon", "exceptions"],
+    "homepage": "http://phalconphp.com",
+    "license": "BSD-3",
+    "authors": [
+        {
+            "name": "Phalcon Team",
+            "email": "team@phalconphp.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.6",
+        "ext-phalcon": ">=1.2.4,<2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Phalcon": "Library/"
+        }
+    }
+}
